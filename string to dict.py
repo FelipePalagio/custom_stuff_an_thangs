@@ -9,9 +9,9 @@ def str_to_dict(p):
         else:
             items.append(i)
 
-    """slip items into words"""
+    """split items into words"""
     joyner = ''.join(items).split()
-    """sort to keys and values"""
+    """sort through keys and values"""
     for i in range(len(joyner)):
         if (i % 2) == 0:
             my_keys.append(joyner[i])
